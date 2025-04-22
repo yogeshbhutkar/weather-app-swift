@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 78.4701,
+        "lat": 17.3145
+    },
+    "weather": [
+        {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 38.13,
+        "feels_like": 37.06,
+        "temp_min": 38.13,
+        "temp_max": 38.13,
+        "pressure": 1010,
+        "humidity": 21,
+        "sea_level": 1010,
+        "grnd_level": 947
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.1,
+        "deg": 281,
+        "gust": 2.93
+    },
+    "clouds": {
+        "all": 12
+    },
+    "dt": 1745305220,
+    "sys": {
+        "country": "IN",
+        "sunrise": 1745281527,
+        "sunset": 1745327008
+    },
+    "timezone": 19800,
+    "id": 1445310,
+    "name": "Hyderabad",
+    "cod": 200
+}
