@@ -53,7 +53,7 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "OPEN_WEATHER_API"
-            value = "f8d7088ec39ce30375eb5c361970cecf"
+            value = ""
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
