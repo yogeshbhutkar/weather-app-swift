@@ -6,14 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DBDEE20E2DB788C200F56B9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DBDEE20D2DB788C200F56B9B /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DBDEE1E42DB7652200F56B9B /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDEE20D2DB788C200F56B9B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DBDEE1E62DB7652200F56B9B /* WeatherApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		DBDEE20F2DB7896D00F56B9B /* Assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,8 +42,10 @@
 		DBDEE1DB2DB7652200F56B9B = {
 			isa = PBXGroup;
 			children = (
+				DBDEE20D2DB788C200F56B9B /* README.md */,
 				DBDEE1E62DB7652200F56B9B /* WeatherApp */,
 				DBDEE1E52DB7652200F56B9B /* Products */,
+				DBDEE20F2DB7896D00F56B9B /* Assets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +74,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DBDEE1E62DB7652200F56B9B /* WeatherApp */,
+				DBDEE20F2DB7896D00F56B9B /* Assets */,
 			);
 			name = WeatherApp;
 			packageProductDependencies = (
@@ -109,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDEE20E2DB788C200F56B9B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
